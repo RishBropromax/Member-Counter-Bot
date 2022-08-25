@@ -18,6 +18,7 @@ async def get_user(message):
     try:
 
         await message._client.get_chat_member(-1001468061399, message.from_user.id)
+	
 
         ok = True
 
@@ -63,4 +64,4 @@ API3='https://www.1secmail.com/api/v1/?action=readMessage&login='
 
 create = InlineKeyboardMarkup(
 
-            [[InlineKeyboardButton(" 💙 Cat X Girl  News 💙", url="https://t.me/CatXGilrNews")]])
+            [[InlineKeyboardButton(" 💙 Cat X Girl  News 💙", url="https://t.me/CatXGilrNews")], [InlineKeyboardButton("🌹Team Semmy🌹", url="t.me/TeamSemTeamSemmy")]])
