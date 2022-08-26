@@ -6,6 +6,7 @@
 * Member Counting 
 * Mentione User
 * Channel Auto Post 
+* Song Download 
 
 # Heroku Development 
 
