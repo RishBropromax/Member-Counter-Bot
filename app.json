@@ -29,6 +29,12 @@
             "required": true
 
         },
+        "BOT_TOKEN": {
+
+            "description": "Get from Bot Father",
+
+            "required": true
+        },
 
         "API_HASH": {
 
