@@ -1,7 +1,5 @@
 import os
 
-
-
 from pyrogram import idle, filters
 
 import requests
@@ -18,7 +16,7 @@ def time_to_seconds(time):
 
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
-@bot.on_message(filters.command('song') & ~filters.forwarded)
+@bot.on_message(filters.command('/song') & ~filters.forwarded)
 
 def song(client, message):
 
@@ -36,7 +34,7 @@ def song(client, message):
 
     print(query)
 
-    m = message.reply("🔎 Searching...\n\n powerd By Team CatXGirl")
+    m = message.reply("🔎 Searching...\n\n powerd By [CatXGirl](t.me/CatXGirl_Bot)")
 
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
 
@@ -60,7 +58,7 @@ def song(client, message):
 
         
 
-        performer = f"〢ImRishmikaBot〣"  
+        performer = f"〢CatXGirl〣"  
 
         duration = results[0]["duration"]
 
@@ -102,9 +100,9 @@ def song(client, message):
 
 👤 **Requested By**: {message.from_user.mention()}
 
-📤 **Uploaded By: [ImRishmika](https://t.me/ImRishmika)**
+📤 **Uploaded By: [CatXGirl](https://t.me/CatXGirl_Bot)**
 
-🔰 **Powerd By ImRishmikaTG_OS
+🔰 **Powerd By ImRishmika API
 
 🎯 **Request By : {request_user}
 
@@ -124,7 +122,7 @@ def song(client, message):
 
     except Exception as e:
 
-        m.edit('❌ Error occurred. Report :- @ImRishmika')
+        m.edit('❌ Error occurred. Report :- @CatXGirlSupport')
 
         print(e)
 
