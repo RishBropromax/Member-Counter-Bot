@@ -62,7 +62,7 @@ async def bot_sys_stats():
 
 • ⚡️ Tᴏᴛᴀʟ Usᴇʀs : {total_users}
 
-@ImRishmika_Bot \n >>> Devoloper By [Rishmika Sandanu](t.me/ImRishmika)
+@CatXGirl_Feedback_Bot \n >>> Devoloper By [Rishmika Sandanu](t.me/ImRishmika)
 
 """
 
