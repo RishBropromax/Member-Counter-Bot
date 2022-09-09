@@ -81,12 +81,12 @@ Made by @ImRishmika
 🌹🔥 What I Can Do.. 🔥🌹
 
 💙 Member Counting /start
-💙 Mention Users  /allstary
+💙 Song Download /song
 💙 Channel Auto Post  /postStart
 
 
 > My Devoloper :- @ImRishmika 
-> Powerd By :- [Team CatxGirl](t.me/CatXGirlNews)
+> Powerd By :- [CatxGirl Bot](t.me/CatXGirl_Bot)
 
 
 
